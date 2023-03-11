@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/****************************LOGO***************************************************/
+.logo{
+    display: flex;
+    justify-content:center;
+    margin-top: 15px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*************************************NAME***************/
+.name{
+    padding-top:10px;
+}
+.name p{
+    text-align: center;
+    font-family: calibri;
+}
+/*************************************PROFESSION*****************************************/
+.profession{
+    text-align: center;
+}
+.profession hr{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 1em;
+}
+.profession p{
+    padding-top: 1em;
+}
+/*************************************MAIN CONTENT*****************************************/
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 1.2em;
+}
+/*************************************MAIN LEFT*****************************************/
+#mainleft{
+    margin-left: 1.2em;
+    border-right: 1px solid gray;
+    padding-left: 0.6em;
+}
+/*************************************MAIN RIGHT*****************************************/
+#mainright{
+    margin-right: 1.2em;
+    padding-left: 0.6em;
+}
+/*************************************BIO DATA*****************************************/
+.biodata h3{
+    padding-top: 1.2em;
+    color: aqua;
+   font-size: 1.6em;
+   text-align: center;
+   font-family: cursive;
+}
+.biodata ul{
+    padding-top: 1.2em;
+    padding-left: 2em;
+}
+.biodata ul li span{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.biodata ul li{
+    padding-top: 2px;
+}
+#skills h3{
+    padding-top: 1.2em;
+    color: aqua;
+   font-size: 1.6em;
+   text-align: center;
+   font-family: cursive;
+}
+#skills ul{
+    padding-top: 1.2em;
+    padding-left: 2em;
+}
+/*******************************OTHER CERTIFICATIONS*****************************************/
+#cert h3{
+    padding-top: 1.2em;
+    color: aqua;
+   font-size: 1.3em;
+   text-align: center;
+   font-family: cursive;
+}
+#cert p{
+    font-style: italic;
+    font-weight: bold;
+}
+/********************************ACADEMIC BACKGROUND*************************************/
+.academic h4{
+    padding-top: 1.2em;
+    color: aqua;
+   font-size: 1.6em;
+   text-align: center;
+   font-family: cursive;
+}
+.academic h5{
+    padding-top:1.2em ;
+    font-size: 1.2em;
+}
